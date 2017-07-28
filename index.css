@@ -1,0 +1,130 @@
+.container{
+    background-color: #247ba0;
+    padding:50px 0 0 0px;
+    max-width: 1000px;
+    font-family: 'Roboto';
+    color: #D6D6B1;
+}
+h1{
+    text-align: center;
+    margin: 1.6% auto;
+    font-family: 'Fjalla One';
+}
+h2, h3{
+    font-family: 'Fjalla One';
+    text-align: center;
+}
+.navbar{
+    margin-bottom:0;
+    justify-content: space-between;
+    background-color: #3A4E48;
+}
+header{
+    color: #D6D6B1 !important;
+    border-bottom:0px;
+    font-family: 'Fjalla One';
+}
+.profpic{
+    height: auto;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 3px solid darkgrey;
+}
+
+p{
+    font-size: 1.5em;
+
+}
+.jumbotron{
+    border-radius: 0px !important;
+    text-align: center;
+    background-color:#D6D6B1;
+    color: #3A4E48;
+}
+
+.thumbnail{
+    max-width: 35rem;
+}
+
+div.col-lg-6 img{
+    margin: 1.66% auto;
+}
+
+hr{
+    margin: 0 2%;
+}
+
+#footer{
+    max-width:800px;
+    margin: 0 auto;
+}
+
+i.fa{
+    margin: 1.6% 2%;
+    font-size: 50px;
+    text-align: center;
+}
+
+div.form-item input{
+    display: block;
+    font-size: 2.3em;
+    width:100%;
+}
+
+div.form-item label{
+    display: block;
+    font-size: 1.3em;
+}
+div.contactinfo{
+    padding-right: 3.5%;
+}
+div.form-item{
+    margin-top: 1.6%;
+}
+textarea#message{
+    width: 100%;
+}
+
+form#contactForm, .contactinfo{
+    padding: 2.5%;
+    width: 75%;
+    margin:0 auto;
+}
+.contactinfo{
+    width:50%;
+    padding-top: 0;
+    padding-right: 3.0%;
+}
+#colorediv{
+    background-color: #3A4E48;
+    margin: 0 auto;
+}
+footer{
+    background-color: #0F0E0E;
+    color: #D6D6B1;
+}
+body{
+    padding-bottom: 0;
+    background-color: #768948
+}
+.col-xs-12 i:hover{
+    color: #757575;
+}
+
+#colorediv p{
+    margin: 0 auto;
+    color: #D6D6B1;
+    text-align: center;
+}
+
+i.fa-coffee, i.fa-heart {
+    font-size: .8em;
+}
+
+li a{
+    transition: 500ms;
+}
+li a:hover{
+    color: white;
+    background-color: #8A8E88;
+}
