@@ -14,11 +14,36 @@ h2, h3{
     font-family: 'Fjalla One';
     text-align: center;
 }
+
+/*NAVBAR AREA */
+
+
 .navbar{
     margin-bottom:0;
     justify-content: space-between;
     background-color: #3A4E48;
 }
+
+.navbar-default{
+  border-color: #3A4e48;
+}
+
+.navbar-default .navbar-brand{
+  color: #fefefe;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fefefe;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #3A4e48;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fefefe;
+}
+/*END NAVBAR AREA*/
 header{
     color: #D6D6B1 !important;
     border-bottom:0px;
@@ -64,7 +89,7 @@ i.fa{
     font-size: 50px;
     text-align: center;
 }
-
+/* Form Area */
 div.form-item input{
     display: block;
     font-size: 2.3em;
@@ -95,6 +120,8 @@ form#contactForm, .contactinfo{
     padding-top: 0;
     padding-right: 3.0%;
 }
+
+/*End Form Area */
 #colorediv{
     background-color: #3A4E48;
     margin: 0 auto;
