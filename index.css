@@ -122,17 +122,62 @@ form#contactForm, .contactinfo{
 }
 
 /*End Form Area */
+/*portfolio area*/
+#portfolio > h2{
+  padding-bottom: 1.5rem;
+}
+.container__showcase{
+  height:300px;
+  background-color: gray;
+  display:block;
+  padding-top:0;
+}
+
+.container__showcase--1{
+  background-image: url("img/colorpicker.png");
+  background-repeat:no-repeat;
+  background-position: center top;
+
+}
+.container__showcase--2{
+  background-image: url("img/prodmanager.png");
+  background-repeat:no-repeat;
+  background-position: center top;
+
+}
+.container__showcase--3{
+  background-image: url("img/quote_generator.png");
+  background-repeat:no-repeat;
+  background-position: center top;
+
+}
+
+.description{
+  background-color: rgba(0,0,0, .5);
+}
+/*End Portfolio Section*/
 #colorediv{
     background-color: #3A4E48;
     margin: 0 auto;
 }
+
+/*Footer Section*/
 footer{
     background-color: #0F0E0E;
     color: #D6D6B1;
 }
+
+footer .row{
+  text-align: center;
+}
+
+/*End Footer Section*/
 body{
     padding-bottom: 0;
-    background-color: #768948
+    background: -moz-linear-gradient(-45deg, rgba(246,248,249,1) 0%, rgba(229,235,238,1) 21%, rgba(215,222,227,1) 66%, rgba(245,247,249,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 21%,rgba(215,222,227,1) 66%,rgba(245,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 21%,rgba(215,222,227,1) 66%,rgba(245,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 .col-xs-12 i:hover{
     color: #757575;
