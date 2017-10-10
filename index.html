@@ -53,34 +53,30 @@
                 </div>
             </div>
         </div>
-
-
-        <div id="portfolio">
             <h1>PORTFOLIO</h1>
             <h2>Below are some projects that I am proud to showcase.</h2>
+        <div class="container">
             <div class="row">
-              <div class= "container container__showcase container__showcase--1">
-                <div class="description">
-                  <h1>Color Picker Game</h1>
+                <div class="container container__showcase container__showcase--1">
                 </div>
-              </div>
+                <div class="container container__showcase">
+
+                </div>
+
             </div>
             <div class="row">
-              <div class= "container container__showcase container__showcase--2">
-                <div>
-                  <h1>Color Picker Game</h1>
+                <div class="container container__showcase container__showcase--2">
+
                 </div>
-              </div>
             </div>
             <div class="row">
-              <div class= "container container__showcase container__showcase--3">
-                <div>
-                  <h1>Color Picker Game</h1>
+                <div class= "container container__showcase container__showcase--3">
+
                 </div>
-              </div>
             </div>
         </div>
-        </div>
+    </div>
+
     <footer>
         <div id="footer">
             <div class="row">
@@ -96,9 +92,17 @@
     <div id="colorediv">
         <p>&copy Jesse Miller 2017</p>
     </div>
-    </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-<script type="text/javascript" rel="script" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" rel="script" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" rel="script">
+        $(document).ready(function(){
+            $('.container_showcase').hover(
+                $(this).css({'border-top': '2px solid black'})
+            );
+        });
+
+    </script>
 </body>
 </html>
