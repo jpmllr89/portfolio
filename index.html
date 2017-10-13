@@ -26,9 +26,8 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#about">About</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#footer">Contact</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -55,14 +54,10 @@
         </div>
             <h1>PORTFOLIO</h1>
             <h2>Below are some projects that I am proud to showcase.</h2>
-        <div class="container">
+        <div class="container" id="portfolio">
             <div class="row">
                 <div class="container container__showcase container__showcase--1">
                 </div>
-                <div class="container container__showcase">
-
-                </div>
-
             </div>
             <div class="row">
                 <div class="container container__showcase container__showcase--2">
@@ -99,8 +94,18 @@
     <script type="text/javascript" rel="script">
         $(document).ready(function(){
             $('.container_showcase').hover(
-                $(this).css({'border-top': '2px solid black'})
+              function(){
+                $(this).append($(
+                  "<div class='container_overlay'><div class='clickhere'><a><i class = 'fa fa-github'></i><h2>Click For Github Repo</h2></a></div></div>")
+                );
+              },
+              function(){
+                $(this).find("div.container_overlay").remove();
+              }
             );
+            $('.container_showcase').hover(function(){
+              console.log("connected!");
+            });
         });
 
     </script>
