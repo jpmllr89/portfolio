@@ -1,3 +1,33 @@
+/*Elementals*/
+h1, h2, h3{
+    font-family: 'Fjalla One';
+    text-align: center;
+}
+h1{
+    margin: 1.6% auto;
+}
+header{
+    color: #D6D6B1 !important;
+    border-bottom:0px;
+    font-family: 'Fjalla One';
+}
+
+p{
+    font-size: 1.5em;
+
+}
+
+hr{
+    margin: 0 2%;
+}
+
+footer{
+    background-color: #0F0E0E;
+    color: #D6D6B1;
+}
+
+/*End Elementals*/
+
 .container{
     background-color: #247ba0;
     padding:50px 0 0 0px;
@@ -5,15 +35,6 @@
     font-family: 'Roboto';
     color: #D6D6B1;
     position:relative;
-}
-h1{
-    text-align: center;
-    margin: 1.6% auto;
-    font-family: 'Fjalla One';
-}
-h2, h3{
-    font-family: 'Fjalla One';
-    text-align: center;
 }
 
 .container_overlay{
@@ -24,6 +45,10 @@ h2, h3{
   display: none;
 }
 
+.container_overlay:hover{
+  display:inline-block;
+}
+
 .clickhere{
   text-align: center;
   position: relative;
@@ -31,8 +56,19 @@ h2, h3{
   background-color: rgba(0, 0, 0, .7);
   width: 25%;
   top: 25%;
-  display: none;
+  /*display: none;*/
 }
+
+.clickhere--hover{
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, .7);
+  width: 25%;
+  top: 25%;}
+
+
+
 
 /*NAVBAR AREA */
 
@@ -63,21 +99,11 @@ h2, h3{
     background-color: #fefefe;
 }
 /*END NAVBAR AREA*/
-header{
-    color: #D6D6B1 !important;
-    border-bottom:0px;
-    font-family: 'Fjalla One';
-}
 .profpic{
     height: auto;
     max-width: 200px;
     border-radius: 50%;
     border: 3px solid darkgrey;
-}
-
-p{
-    font-size: 1.5em;
-
 }
 .jumbotron{
     border-radius: 0px !important;
@@ -92,10 +118,6 @@ p{
 
 div.col-lg-6 img{
     margin: 1.66% auto;
-}
-
-hr{
-    margin: 0 2%;
 }
 
 #footer{
@@ -170,18 +192,6 @@ form#contactForm, .contactinfo{
   background-position: center top;
 
 }
-
-.description{
-  background-color: rgba(0,0,0, .5);
-}
-
-.link_area{
-    background-color: grey;
-    color: black;
-    height: 100%;
-    padding:0;
-
-}
 /*End Portfolio Section*/
 #colorediv{
     background-color: #3A4E48;
@@ -199,13 +209,6 @@ footer .row{
 }
 
 /*End Footer Section*/
-body{
-    padding-bottom: 0;
-    background: -moz-linear-gradient(-45deg, rgba(246,248,249,1) 0%, rgba(229,235,238,1) 21%, rgba(215,222,227,1) 66%, rgba(245,247,249,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 21%,rgba(215,222,227,1) 66%,rgba(245,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, rgba(246,248,249,1) 0%,rgba(229,235,238,1) 21%,rgba(215,222,227,1) 66%,rgba(245,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-}
 .col-xs-12 i:hover{
     color: #757575;
 }

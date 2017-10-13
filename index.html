@@ -57,16 +57,28 @@
         <div class="container" id="portfolio">
             <div class="row">
                 <div class="container container__showcase container__showcase--1">
+
                 </div>
             </div>
+
             <div class="row">
                 <div class="container container__showcase container__showcase--2">
-
+                  <div class="container_overlay">
+                    <div class="clickhere">
+                      <h2>Click For Repo</h2>
+                      <a><i class="fa fa-git"></i></a>
+                    </div>
+                  </div>
                 </div>
             </div>
+
             <div class="row">
                 <div class= "container container__showcase container__showcase--3">
-
+                  <div class="container_overlay">
+                    <div class="clickhere">
+                      CLICK HERE
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -87,27 +99,9 @@
     <div id="colorediv">
         <p>&copy Jesse Miller 2017</p>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type ="text/javascript" rel="script" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <script type="text/javascript" rel="script" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <script type="text/javascript" rel="script">
-        $(document).ready(function(){
-            $('.container_showcase').hover(
-              function(){
-                $(this).append($(
-                  "<div class='container_overlay'><div class='clickhere'><a><i class = 'fa fa-github'></i><h2>Click For Github Repo</h2></a></div></div>")
-                );
-              },
-              function(){
-                $(this).find("div.container_overlay").remove();
-              }
-            );
-            $('.container_showcase').hover(function(){
-              console.log("connected!");
-            });
-        });
-
-    </script>
 </body>
 </html>
