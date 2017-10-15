@@ -1,0 +1,33 @@
+/* Form Area */
+div.form-item input{
+    display: block;
+    font-size: 2.3em;
+    width:100%;
+}
+
+div.form-item label{
+    display: block;
+    font-size: 1.3em;
+}
+div.contactinfo{
+    padding-right: 3.5%;
+}
+div.form-item{
+    margin-top: 1.6%;
+}
+textarea#message{
+    width: 100%;
+}
+
+form#contactForm, .contactinfo{
+    padding: 2.5%;
+    width: 75%;
+    margin:0 auto;
+}
+.contactinfo{
+    width:50%;
+    padding-top: 0;
+    padding-right: 3.0%;
+}
+
+/*End Form Area */
