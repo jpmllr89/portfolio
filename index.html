@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto" rel="stylesheet">
 </head>
 <body>
+  <!-- NavBar Section -->
     <header>
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container-fluid">
@@ -33,32 +34,43 @@
             </div><!-- /.container-fluid -->
         </nav>
     </header>
+    <!-- End NavBar Section -->
+
     <div class="container">
-        <div class="jumbotron">
+        <!-- Hero Section -->
+
+        <div class="jumbotron hero__jumbotron">
             <div class="row">
                 <div class="col-lg-8 col-xs-12">
                     <div class="row">
                         <div class="col-xs-12">
-                            <h2>Front-End Web Developer</h2>
+                            <h2 class="">Front-End Web Developer</h2>
                         </div>
-
                         <div class="col-xs-12">
                           <h4>Freelance Front-End Developer with experience in HTML5, CSS3, JavaScript and eager to learn more!</h4>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-xs-12">
-                    <img class="profpic" src="img/me.jpg">
+                    <img class="hero__profpic" src="img/me.jpg">
                 </div>
             </div>
         </div>
-        <div class="container-port" id="portfolio">
-          <div>
+
+        <!-- End Hero Section -->
+
+        <!-- Portfolio Section -->
+
+        <div>
+          <div class="portfolio__title">
             <h1>PORTFOLIO</h1>
             <h2>Below are some projects that I am proud to showcase.</h2>
           </div>
+
+          <!-- Showcase Section -->
+
           <div class="row">
-              <div class="content">
+              <div class="content showcase__content">
                 <img class="image" src="./img/colorpicker.png" />
                 <div class="container_overlay">
                   <div class="link">
@@ -69,7 +81,7 @@
           </div>
 
           <div class="row">
-              <div class="content">
+              <div class="content showcase__content">
                 <img class="image" src="./img/prodmanager.png" />
                 <div class="container_overlay">
                   <div class="link">
@@ -80,7 +92,7 @@
           </div>
 
           <div class="row">
-              <div class="content">
+              <div class="content showcase__content">
                 <img class="image" src="./img/quote_generator.png" />
                 <div class="container_overlay">
                   <div class="link">
@@ -90,27 +102,41 @@
               </div>
           </div>
 
+          <!-- End Showcase Section -->
+
         </div>
+
+        <!-- End Portfolio Section -->
     </div>
 
+    <!-- Footer/Contact Section -->
     <footer>
         <div id="footer">
             <div class="row">
                     <div>
                         <h2>Connect With Me.</h2>
                         <div class="row">
-                            <i class="fa fa-git-square"></i><i class="fa fa-envelope-square"></i>
+                            <a href="http://github.com/jpmllr89">
+                              <i class="fa fa-git-square"></i>
+                            </a>
+                            <a href="mailto:jpmllr89@gmail.com">
+                              <i class="fa fa-envelope-square"></i>
+                            </a>
                         </div>
                     </div>
             </div>
         </div>
     </footer>
-    <div id="colorediv">
-        <p>&copy Jesse Miller 2017</p>
+    <div class="colorediv">
+        <p class="colorediv__content">&copy Jesse Miller 2017</p>
     </div>
+    <!-- End Footer/Contact Section -->
+
+    <!-- JavaScripts -->
     <script type ="text/javascript" rel="script" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <script type="text/javascript" rel="script" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <!-- End JavaScripts -->
 </body>
 </html>

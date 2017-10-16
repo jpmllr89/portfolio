@@ -1,4 +1,8 @@
-/*Elementals*/
+/*Globals*/
+
+*{
+  box-sizing: border-box;
+}
 h1, h2, h3{
     font-family: 'Fjalla One';
     text-align: center;
@@ -20,14 +24,73 @@ p{
 hr{
     margin: 0 2%;
 }
+/*End Globals*/
 
-footer{
-    background-color: #0F0E0E;
-    color: #D6D6B1;
+/*NAVBAR AREA */
+
+
+.navbar{
+    margin-bottom:0;
+    justify-content: space-between;
+    background-color: #3A4E48;
 }
-/*End Elementals*/
-/*portfolio section*/
 
+.navbar-default{
+  border-color: #3A4e48;
+}
+
+.navbar-default .navbar-brand{
+  color: #fefefe;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fefefe;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #3A4e48;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fefefe;
+}
+
+li a{
+    transition: 500ms;
+}
+li a:hover{
+    color: white;
+    background-color: #8A8E88;
+}
+/*End Navbar Section*/
+
+/*Hero Section*/
+.hero__profpic{
+    height: auto;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 3px solid darkgrey;
+}
+.hero__jumbotron{
+    border-radius: 0px !important;
+    text-align: center;
+    background-color:#D6D6B1;
+    color: #3A4E48;
+}
+div.col-lg-6 img{
+    margin: 1.66% auto;
+}
+/*End Hero Section*/
+
+/*Portfolio Section*/
+
+.portfolio__title{
+  margin:5rem 1.4rem;
+}
+
+/*End Portfolio Section*/
+
+/*Showcase Section*/
 .image {
   width:100%;
   display: block;
@@ -44,11 +107,12 @@ footer{
   margin:0;
   width:100%;
 }
-.content{
+.showcase__content{
   position: relative;
   width:100%;
   padding:0;
 }
+
 .container_overlay{
   position: absolute;
   bottom:0;
@@ -85,59 +149,11 @@ footer{
 .link > a:hover{
   color: #efefef;
 }
-#portfolio > h2{
-  padding-bottom: 1.5rem;
-}
-
-/*NAVBAR AREA */
+/*End Showcase Section*/
 
 
-.navbar{
-    margin-bottom:0;
-    justify-content: space-between;
-    background-color: #3A4E48;
-}
 
-.navbar-default{
-  border-color: #3A4e48;
-}
-
-.navbar-default .navbar-brand{
-  color: #fefefe;
-}
-
-.navbar-default .navbar-nav>li>a {
-    color: #fefefe;
-}
-
-.navbar-default .navbar-toggle {
-    border-color: #3A4e48;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fefefe;
-}
-/*END NAVBAR AREA*/
-.profpic{
-    height: auto;
-    max-width: 200px;
-    border-radius: 50%;
-    border: 3px solid darkgrey;
-}
-.jumbotron{
-    border-radius: 0px !important;
-    text-align: center;
-    background-color:#D6D6B1;
-    color: #3A4E48;
-}
-
-.thumbnail{
-    max-width: 35rem;
-}
-
-div.col-lg-6 img{
-    margin: 1.66% auto;
-}
+/*Footer/Contact Section*/
 
 #footer{
     max-width:800px;
@@ -148,13 +164,23 @@ i.fa{
     margin: 1.6% 2%;
     font-size: 50px;
     text-align: center;
+    color:black;
 }
-#colorediv{
+
+i.fa:hover{
+  color:white;
+}
+.colorediv{
     background-color: #3A4E48;
     margin: 0 auto;
 }
 
-/*Footer Section*/
+.colorediv__content{
+    margin: 0 auto;
+    color: #D6D6B1;
+    text-align: center;
+}
+
 footer{
     background-color: #0F0E0E;
     color: #D6D6B1;
@@ -165,24 +191,3 @@ footer .row{
 }
 
 /*End Footer Section*/
-.col-xs-12 i:hover{
-    color: #757575;
-}
-
-#colorediv p{
-    margin: 0 auto;
-    color: #D6D6B1;
-    text-align: center;
-}
-
-i.fa-coffee, i.fa-heart {
-    font-size: .8em;
-}
-
-li a{
-    transition: 500ms;
-}
-li a:hover{
-    color: white;
-    background-color: #8A8E88;
-}
