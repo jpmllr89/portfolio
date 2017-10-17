@@ -1,0 +1,37 @@
+/*NAVBAR AREA */
+
+
+.navbar{
+    margin-bottom:0;
+    justify-content: space-between;
+    background-color: #3A4E48;
+}
+
+.navbar-default{
+  border-color: #3A4e48;
+}
+
+.navbar-default .navbar-brand{
+  color: #fefefe;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fefefe;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #3A4e48;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fefefe;
+}
+
+li a{
+    transition: 500ms;
+}
+li a:hover{
+    color: white;
+    background-color: #8A8E88;
+}
+/*End Navbar Section*/

@@ -1,0 +1,38 @@
+/*Footer/Contact Section*/
+
+#footer{
+    max-width:800px;
+    margin: 0 auto;
+}
+
+i.fa{
+    margin: 1.6% 2%;
+    font-size: 50px;
+    text-align: center;
+    color:black;
+}
+
+i.fa:hover{
+  color:white;
+}
+.colorediv{
+    background-color: #3A4E48;
+    margin: 0 auto;
+}
+
+.colorediv__content{
+    margin: 0 auto;
+    color: #D6D6B1;
+    text-align: center;
+}
+
+footer{
+    background-color: #0F0E0E;
+    color: #D6D6B1;
+}
+
+footer .row{
+  text-align: center;
+}
+
+/*End Footer Section*/

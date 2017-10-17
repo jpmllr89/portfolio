@@ -1,0 +1,19 @@
+/*Hero Section*/
+
+.hero__profpic{
+    height: auto;
+    max-width: 200px;
+    border-radius: 50%;
+    border: 3px solid darkgrey;
+}
+.hero__jumbotron{
+    margin-bottom:0;
+    border-radius: 0px !important;
+    text-align: center;
+    background-color:#D6D6B1;
+    color: #3A4E48;
+}
+div.col-lg-6 img{
+    margin: 1.66% auto;
+}
+/*End Hero Section*/
