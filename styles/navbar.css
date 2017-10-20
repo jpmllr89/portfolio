@@ -34,4 +34,7 @@ li a:hover{
     color: white;
     background-color: #8A8E88;
 }
+.navbar-brand{
+  transition: 500ms;
+}
 /*End Navbar Section*/
