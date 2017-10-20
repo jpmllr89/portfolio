@@ -62,10 +62,11 @@
   -ms-transform: translate(-50%, -50%);
 }
 
-.link > a{
+.link > a > i{
   color: white;
 }
-.link > a:hover{
-  color: #efefef;
+
+.link > a > i:hover{
+  color: #cdcdcd;
 }
 /*End Showcase Section*/

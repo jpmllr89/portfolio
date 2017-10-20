@@ -21,11 +21,45 @@
 .information__spans{
   font-weight:bolder;
 }
+.information__title--magenta{
+  color: #ff0066;
+}
 
+.information__title--link{
+  color: blue;
+}
+.information__title--link:hover{
+  text-decoration: none;
+  color: black;
+}
+
+.information__title--right{
+  text-align: right;
+}
+.information__year{
+  margin-top:10px;
+  font-size: 1.1em;
+  color: #ccc;
+  text-align: left;
+}
+.information__description{
+  margin-top:10px;
+  margin-bottom:10px;
+  font-size: 1.1em;
+  color: black;
+  text-align: right;
+}
+.information__ul{
+  color:#222;
+}
 .border{
   font-weight: 400;
   border-top: 5px solid black;
   margin: 2% 0;
+}
+
+.proj_content{
+  padding:1.5rem 0;
 }
 
 /**/
