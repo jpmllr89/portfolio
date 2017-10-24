@@ -1,9 +1,12 @@
+span{
+  color:#232323;
+}
+
 /*Resume Section*/
 .information{
   padding-top:20px;
   padding-bottom: 20px;
 }
-/*End Resume Section*/
 
 .information__title{
   weight: 700;
@@ -60,5 +63,3 @@
 .proj_content{
   padding:1.5rem 0;
 }
-
-/**/
