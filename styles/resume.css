@@ -51,9 +51,12 @@ span{
   color: black;
   text-align: right;
 }
-.information__ul{
+.information__p{
   color:#222;
+  width:75%;
+  padding-left:.75em;
 }
+
 .border{
   font-weight: 400;
   border-top: 5px solid black;
