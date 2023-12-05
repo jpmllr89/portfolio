@@ -1,9 +1,26 @@
 const data = {
+  // portfolioTest:[
+  //   {
+  //     link: "saas-sandy.vercel.app",
+  //     title: "SaaS",
+  //     caption: "SaaS Website",
+  //     attributes: [
+  //       {
+  //         name: "data-item",
+  //         value: "web"
+  //       },
+  //       {
+  //         name: "data-open",
+  //         value: "modal1"
+  //       }
+  //     ]
+  //   }
+  // ],
   dataPortfolioCards : [
     {
-      picture:"./assets/img/portfolio-1.jpg",
-      title:'Web Development',
-      caption:'Food Website',
+      picture:"./assets/img/saas.png",
+      title:'Software as a Service',
+      caption:'SaaS Website',
       attributes: [
         {
           name: "data-item",
@@ -121,14 +138,15 @@ const data = {
       ]
     }
   ],
+  
   dataModals : [
     {
       id: "modal1",
-      h3: "Web Development",
-      img: "./assets/img/portfolio-1.jpg",
-      strongParagraph: "My first Awesome Website",
-      firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
-      secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
+      h3: "Saas Website",
+      img: "./assets/img/saas.png",
+      strongParagraph: "Mock Software as a Service Website",
+      firstParagraph: "This is a mock website for a SaaS company. It is a responsive website that is built with HTML, CSS, and JavaScript. It is a single page website that has a smooth scroll effect",
+      link: "saas-sandy.vercel.app"
     },
     {
       id: "modal2",
@@ -237,7 +255,7 @@ for(let i = 0; i< data.dataModals.length; i++){
       <div class="text-body">
         <p><strong>${data.dataModals[i].strongParagraph}</strong><p>
         <p>${data.dataModals[i].firstParagraph}<p>
-        <p>${data.dataModals[i].secondParagraph}<p>
+        <a href="${data.dataModals[i].secondParagraph}">Click to see more ></a>
       </div>
     </div>
   </div>`;
