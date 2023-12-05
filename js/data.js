@@ -32,111 +32,111 @@ const data = {
         }
       ]
     },
-    {
-      picture: './assets/img/portfolio-2.jpg',
-      title:'Web Development',
-      caption:'Crafts website',
-      attributes: [
-        {
-          name: "data-item",
-          value: "web"
-        },
-        {
-          name: "data-open",
-          value: "modal2"
-        }
-      ]
-    },
-    {
-      picture:'./assets/img/portfolio-3.jpg',
-      title:'Web Development',
-      caption:'Shopping website',
-      attributes: [
-        {
-          name: "data-item",
-          value: "web"
-        },
-        {
-          name: "data-open",
-          value: "modal3"
-        }
-      ]
-    },
-    {
-      picture:'./assets/img/portfolio-7.jpg',
-      title:'Web Development',
-      caption:'Skate Website',
-      attributes: [
-        {
-          name: "data-item",
-          value: "web"
-        },
-        {
-          name: "data-open",
-          value: "modal4"
-        }
-      ]
-    },
-    {
-      picture:'./assets/img/portfolio-5.jpg',
-      title:'App Development',
-      caption:'Dating App',
-      attributes: [
-        {
-          name: "data-item",
-          value: "app"
-        },
-        {
-          name: "data-open",
-          value: "modal5"
-        }
-      ]
-    },
-    {
-      picture:'./assets/img/portfolio-6.jpg',
-      title:'App Development',
-      caption:'Gaming App',
-      attributes: [
-        {
-          name: "data-item",
-          value: "app"
-        },
-        {
-          name: "data-open",
-          value: "modal6"
-        }
-      ]
-    },
-    {
-      picture:'./assets/img/portfolio-7.jpg',
-      title:'UI Design',
-      caption:'Cool Design',
-      attributes: [
-        {
-          name: "data-item",
-          value: "ui"
-        },
-        {
-          name: "data-open",
-          value: "modal7"
-        }
-      ]
-    },
-    {
-      picture:'./assets/img/portfolio-8.jpg',
-      title:'UI Design',
-      caption:'Masterpiece',
-      attributes: [
-        {
-          name: "data-item",
-          value: "ui"
-        },
-        {
-          name: "data-open",
-          value: "modal8"
-        }
-      ]
-    }
+    // {
+    //   picture: './assets/img/portfolio-2.jpg',
+    //   title:'Web Development',
+    //   caption:'Crafts website',
+    //   attributes: [
+    //     {
+    //       name: "data-item",
+    //       value: "web"
+    //     },
+    //     {
+    //       name: "data-open",
+    //       value: "modal2"
+    //     }
+    //   ]
+    // },
+    // {
+    //   picture:'./assets/img/portfolio-3.jpg',
+    //   title:'Web Development',
+    //   caption:'Shopping website',
+    //   attributes: [
+    //     {
+    //       name: "data-item",
+    //       value: "web"
+    //     },
+    //     {
+    //       name: "data-open",
+    //       value: "modal3"
+    //     }
+    //   ]
+    // },
+    // {
+    //   picture:'./assets/img/portfolio-7.jpg',
+    //   title:'Web Development',
+    //   caption:'Skate Website',
+    //   attributes: [
+    //     {
+    //       name: "data-item",
+    //       value: "web"
+    //     },
+    //     {
+    //       name: "data-open",
+    //       value: "modal4"
+    //     }
+    //   ]
+    // },
+    // {
+    //   picture:'./assets/img/portfolio-5.jpg',
+    //   title:'App Development',
+    //   caption:'Dating App',
+    //   attributes: [
+    //     {
+    //       name: "data-item",
+    //       value: "app"
+    //     },
+    //     {
+    //       name: "data-open",
+    //       value: "modal5"
+    //     }
+    //   ]
+    // },
+    // {
+    //   picture:'./assets/img/portfolio-6.jpg',
+    //   title:'App Development',
+    //   caption:'Gaming App',
+    //   attributes: [
+    //     {
+    //       name: "data-item",
+    //       value: "app"
+    //     },
+    //     {
+    //       name: "data-open",
+    //       value: "modal6"
+    //     }
+    //   ]
+    // },
+    // {
+    //   picture:'./assets/img/portfolio-7.jpg',
+    //   title:'UI Design',
+    //   caption:'Cool Design',
+    //   attributes: [
+    //     {
+    //       name: "data-item",
+    //       value: "ui"
+    //     },
+    //     {
+    //       name: "data-open",
+    //       value: "modal7"
+    //     }
+    //   ]
+    // },
+    // {
+    //   picture:'./assets/img/portfolio-8.jpg',
+    //   title:'UI Design',
+    //   caption:'Masterpiece',
+    //   attributes: [
+    //     {
+    //       name: "data-item",
+    //       value: "ui"
+    //     },
+    //     {
+    //       name: "data-open",
+    //       value: "modal8"
+    //     }
+    //   ]
+    // }
   ],
   
   dataModals : [
@@ -148,62 +148,62 @@ const data = {
       firstParagraph: "This is a mock website for a SaaS company. It is a responsive website that is built with HTML, CSS, and JavaScript. It is a single page website that has a smooth scroll effect",
       link: "saas-sandy.vercel.app"
     },
-    {
-      id: "modal2",
-      h3: "Web Development",
-      img: "./assets/img/portfolio-2.jpg",
-      strongParagraph: "My first Awesome Website",
-      firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
-      secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
-    },
-    {
-      id: "modal3",
-      h3: "Web Development",
-      img: "./assets/img/portfolio-3.jpg",
-      strongParagraph: "My first Awesome Website",
-      firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
-      secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
-    },
-    {
-      id: "modal4",
-      h3: "Web Development",
-      img: "./assets/img/portfolio-7.jpg",
-      strongParagraph: "My first Awesome Website",
-      firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
-      secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
-    },
-    {
-      id: "modal5",
-      h3: "App Development",
-      img: "./assets/img/portfolio-5.jpg",
-      strongParagraph: "My first Awesome Website",
-      firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
-      secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
-    },
-    {
-      id: "modal6",
-      h3: "App Development",
-      img: "./assets/img/portfolio-6.jpg",
-      strongParagraph: "My first Awesome Website",
-      firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
-      secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
-    },
-    {
-      id: "modal7",
-      h3: "UI Development",
-      img: "./assets/img/portfolio-7.jpg",
-      strongParagraph: "My first Awesome Website",
-      firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
-      secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
-    },
-    {
-      id: "modal8",
-      h3: "UI Development",
-      img: "./assets/img/portfolio-8.jpg",
-      strongParagraph: "My first Awesome Website",
-      firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
-      secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
-    },
+    // {
+    //   id: "modal2",
+    //   h3: "Web Development",
+    //   img: "./assets/img/portfolio-2.jpg",
+    //   strongParagraph: "My first Awesome Website",
+    //   firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
+    //   secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
+    // },
+    // {
+    //   id: "modal3",
+    //   h3: "Web Development",
+    //   img: "./assets/img/portfolio-3.jpg",
+    //   strongParagraph: "My first Awesome Website",
+    //   firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
+    //   secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
+    // },
+    // {
+    //   id: "modal4",
+    //   h3: "Web Development",
+    //   img: "./assets/img/portfolio-7.jpg",
+    //   strongParagraph: "My first Awesome Website",
+    //   firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
+    //   secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
+    // },
+    // {
+    //   id: "modal5",
+    //   h3: "App Development",
+    //   img: "./assets/img/portfolio-5.jpg",
+    //   strongParagraph: "My first Awesome Website",
+    //   firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
+    //   secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
+    // },
+    // {
+    //   id: "modal6",
+    //   h3: "App Development",
+    //   img: "./assets/img/portfolio-6.jpg",
+    //   strongParagraph: "My first Awesome Website",
+    //   firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
+    //   secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
+    // },
+    // {
+    //   id: "modal7",
+    //   h3: "UI Development",
+    //   img: "./assets/img/portfolio-7.jpg",
+    //   strongParagraph: "My first Awesome Website",
+    //   firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
+    //   secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
+    // },
+    // {
+    //   id: "modal8",
+    //   h3: "UI Development",
+    //   img: "./assets/img/portfolio-8.jpg",
+    //   strongParagraph: "My first Awesome Website",
+    //   firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
+    //   secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
+    // },
   
   ]
 
