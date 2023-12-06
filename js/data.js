@@ -32,21 +32,21 @@ const data = {
         }
       ]
     },
-    // {
-    //   picture: './assets/img/portfolio-2.jpg',
-    //   title:'Web Development',
-    //   caption:'Crafts website',
-    //   attributes: [
-    //     {
-    //       name: "data-item",
-    //       value: "web"
-    //     },
-    //     {
-    //       name: "data-open",
-    //       value: "modal2"
-    //     }
-    //   ]
-    // },
+    {
+      picture: './assets/img/recipe_api.png',
+      title:'Recipe Collection API',
+      caption:'Recipe API',
+      attributes: [
+        {
+          name: "data-item",
+          value: "web"
+        },
+        {
+          name: "data-open",
+          value: "modal2"
+        }
+      ]
+    },
     // {
     //   picture:'./assets/img/portfolio-3.jpg',
     //   title:'Web Development',
@@ -146,16 +146,16 @@ const data = {
       img: "./assets/img/saas.png",
       strongParagraph: "Mock Software as a Service Website",
       firstParagraph: "This is a mock website for a SaaS company. It is a responsive website that is built with HTML, CSS, and JavaScript. It is a single page website that has a smooth scroll effect",
-      link: "saas-sandy.vercel.app"
+      link: "https://www.saas-sandy.vercel.app"
     },
-    // {
-    //   id: "modal2",
-    //   h3: "Web Development",
-    //   img: "./assets/img/portfolio-2.jpg",
-    //   strongParagraph: "My first Awesome Website",
-    //   firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
-    //   secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
-    // },
+    {
+      id: "modal2",
+      h3: "Recipe API",
+      img: "./assets/img/recipe_api.png",
+      strongParagraph: "Recipe Collection App",
+      firstParagraph: "This is a recipe collection app that uses an API to fetch recipes. It is a single page, responsive website that is built with HTML, CSS, and JavaScript and has a smooth scrolling effect.",
+      link: "https://what-to-eat-api-v2-43z8.vercel.app/"
+    },
     // {
     //   id: "modal3",
     //   h3: "Web Development",
