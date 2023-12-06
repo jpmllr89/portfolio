@@ -255,7 +255,7 @@ for(let i = 0; i< data.dataModals.length; i++){
       <div class="text-body">
         <p><strong>${data.dataModals[i].strongParagraph}</strong><p>
         <p>${data.dataModals[i].firstParagraph}<p>
-        <a href="${data.dataModals[i].secondParagraph}">Click to see more ></a>
+        <a href="${data.dataModals[i].link}">Click to see more ></a>
       </div>
     </div>
   </div>`;
