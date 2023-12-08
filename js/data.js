@@ -24,7 +24,7 @@ const data = {
       attributes: [
         {
           name: "data-item",
-          value: "web"
+          value: "Responsive CSS"
         },
         {
           name: "data-open",
@@ -33,13 +33,13 @@ const data = {
       ]
     },
     {
-      picture: './assets/img/recipe_api.png',
+      picture: './assets/img/recipes_api.png',
       title:'Recipe Collection API',
       caption:'Recipe API',
       attributes: [
         {
           name: "data-item",
-          value: "web"
+          value: "Javascript"
         },
         {
           name: "data-open",
@@ -47,66 +47,66 @@ const data = {
         }
       ]
     },
-    // {
-    //   picture:'./assets/img/portfolio-3.jpg',
-    //   title:'Web Development',
-    //   caption:'Shopping website',
-    //   attributes: [
-    //     {
-    //       name: "data-item",
-    //       value: "web"
-    //     },
-    //     {
-    //       name: "data-open",
-    //       value: "modal3"
-    //     }
-    //   ]
-    // },
-    // {
-    //   picture:'./assets/img/portfolio-7.jpg',
-    //   title:'Web Development',
-    //   caption:'Skate Website',
-    //   attributes: [
-    //     {
-    //       name: "data-item",
-    //       value: "web"
-    //     },
-    //     {
-    //       name: "data-open",
-    //       value: "modal4"
-    //     }
-    //   ]
-    // },
-    // {
-    //   picture:'./assets/img/portfolio-5.jpg',
-    //   title:'App Development',
-    //   caption:'Dating App',
-    //   attributes: [
-    //     {
-    //       name: "data-item",
-    //       value: "app"
-    //     },
-    //     {
-    //       name: "data-open",
-    //       value: "modal5"
-    //     }
-    //   ]
-    // },
-    // {
-    //   picture:'./assets/img/portfolio-6.jpg',
-    //   title:'App Development',
-    //   caption:'Gaming App',
-    //   attributes: [
-    //     {
-    //       name: "data-item",
-    //       value: "app"
-    //     },
-    //     {
-    //       name: "data-open",
-    //       value: "modal6"
-    //     }
-    //   ]
-    // },
+    {
+      picture:'./assets/img/lawfirm.png',
+      title:'Lawfirm Business',
+      caption:'Lawfirm Landing Page',
+      attributes: [
+        {
+          name: "data-item",
+          value: "Responsive CSS"
+        },
+        {
+          name: "data-open",
+          value: "modal3"
+        }
+      ]
+    },
+    {
+      picture:'./assets/img/taskApp.png',
+      title:'Super Retro Production',
+      caption:'Productivity App',
+      attributes: [
+        {
+          name: "data-item",
+          value: "React"
+        },
+        {
+          name: "data-open",
+          value: "modal4"
+        }
+      ]
+    },
+    {
+      picture:'./assets/img/youtube.png',
+      title:'Nintendo.com Clone',
+      caption:'A clone from Nintendo\'s website',
+      attributes: [
+        {
+          name: "data-item",
+          value: "Responsive CSS"
+        },
+        {
+          name: "data-open",
+          value: "modal5"
+        }
+      ]
+    },
+    {
+      picture:'./assets/img/monstercat.png',
+      title:'Monstercat Music Player',
+      caption:'Responsive Website',
+      attributes: [
+        {
+          name: "data-item",
+          value: "Responsive CSS"
+        },
+        {
+          name: "data-open",
+          value: "modal6"
+        }
+      ]
+    },
     // {
     //   picture:'./assets/img/portfolio-7.jpg',
     //   title:'UI Design',
@@ -146,7 +146,7 @@ const data = {
       img: "./assets/img/saas.png",
       strongParagraph: "Mock Software as a Service Website",
       firstParagraph: "This is a mock website for a SaaS company. It is a responsive website that is built with HTML, CSS, and JavaScript. It is a single page website that has a smooth scroll effect",
-      link: "https://www.saas-sandy.vercel.app"
+      link: "https://saas-8b9b.vercel.app/"
     },
     {
       id: "modal2",
@@ -156,38 +156,38 @@ const data = {
       firstParagraph: "This is a recipe collection app that uses an API to fetch recipes. It is a single page, responsive website that is built with HTML, CSS, and JavaScript and has a smooth scrolling effect.",
       link: "https://what-to-eat-api-v2-43z8.vercel.app/"
     },
-    // {
-    //   id: "modal3",
-    //   h3: "Web Development",
-    //   img: "./assets/img/portfolio-3.jpg",
-    //   strongParagraph: "My first Awesome Website",
-    //   firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
-    //   secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
-    // },
-    // {
-    //   id: "modal4",
-    //   h3: "Web Development",
-    //   img: "./assets/img/portfolio-7.jpg",
-    //   strongParagraph: "My first Awesome Website",
-    //   firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
-    //   secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
-    // },
-    // {
-    //   id: "modal5",
-    //   h3: "App Development",
-    //   img: "./assets/img/portfolio-5.jpg",
-    //   strongParagraph: "My first Awesome Website",
-    //   firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
-    //   secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
-    // },
-    // {
-    //   id: "modal6",
-    //   h3: "App Development",
-    //   img: "./assets/img/portfolio-6.jpg",
-    //   strongParagraph: "My first Awesome Website",
-    //   firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
-    //   secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
-    // },
+    {
+      id: "modal3",
+      h3: "Small Lawfirm",
+      img: "./assets/img/lawfirm.png",
+      strongParagraph: "Law Firm Small business landing page",
+      firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
+      link: "https://mock-lawfirm.vercel.app/"
+    },
+    {
+      id: "modal4",
+      h3: "Productivity App",
+      img: "./assets/img/taskApp.png",
+      strongParagraph: "Super Retro Production",
+      firstParagraph: "This is a productivity app that utilizes the React framework. It is a single page, responsive website that is built with HTML, CSS, and Javascript.  This page also won the Devslopes Hackathon.",
+      link: "https://prod-app-hackathon.vercel.app/"
+    },
+    {
+      id: "modal5",
+      h3: "Nintendo Clone",
+      img: "./assets/img/youtube.png",
+      strongParagraph: "Nintendo Clone Website",
+      firstParagraph: "This is a clone of Nintendo's website. It is a single page that is built with HTML and CSS.",
+      link: "https://mock-nintendo.vercel.app/"
+    },
+    {
+      id: "modal6",
+      h3: "Monstercat Clone",
+      img: "./assets/img/monstercat.jpg",
+      strongParagraph: "Monstercat Website Clone",
+      firstParagraph: "This is a clone of Monstercat's website. It is a single page that is built with HTML and CSS.",
+      link: ""
+    },
     // {
     //   id: "modal7",
     //   h3: "UI Development",
@@ -204,8 +204,58 @@ const data = {
     //   firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
     //   secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
     // },
-  
-  ]
+  ],
+    testimonials: [
+      {
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
+        img:"./assets/img/testimonials/testimonial-1.jpg",
+        name: "John Doe",
+        org: "Crip Pride Worldwide"
+      },
+      {
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
+        img:"./assets/img/testimonials/testimonial-2.jpg",
+        name: "DRIZZY DRAKE",
+        org: "Crip Pride Worldwide"
+      },
+      {
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
+        img:"./assets/img/testimonials/testimonial-3.jpg",
+        name: "Ice Rube",
+        org: "Crip Pride Worldwide"
+      },
+      {
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
+        img:"./assets/img/testimonials/testimonial-4.jpg",
+        name: "Sanic",
+        org: "Crip Pride Worldwide"
+      },
+      {
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
+        img:"./assets/img/testimonials/testimonial-5.jpg",
+        name: "Bloot",
+        org: "Crip Pride Worldwide"
+      },
+      {
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
+        img:"./assets/img/testimonials/testimonial-6.jpg",
+        name: "Snoot",
+        org: "Crip Pride Worldwide"
+      },
+      {
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
+        img:"./assets/img/testimonials/testimonial-7.jpg",
+        name: "CLEETUS",
+        org: "Crip Pride Worldwide"
+      },
+      {
+        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
+        img:"./assets/img/testimonials/testimonial-8.jpg",
+        name: "Rambam",
+        org: "Crip Pride Worldwide"
+      },
+
+    ],
 
 }
 
@@ -260,4 +310,28 @@ for(let i = 0; i< data.dataModals.length; i++){
     </div>
   </div>`;
   main.appendChild(modalElement);
+}
+
+// Generate Testimonials
+const testimonials = document.querySelector('.testimonial-carousel');
+const testimonialItem = "testimonial-carousel-item";
+
+for(let i = 0; i< data.dataModals.length; i++){
+  let testimonialElement = document.createElement('div');
+  testimonialElement.classList.add(testimonialItem);
+  testimonialElement.setAttribute('data-animation', "slideDown");
+  testimonialElement.innerHTML =
+  `
+    <p>${data.testimonials[i].quote}</p>
+    <div class="testimonial-author">
+      <div class="author-image-wrapper">
+        <img src=${data.testimonials[i].img} alt="avatar">
+      </div>
+      <div class="details">
+        <h2>${data.testimonials[i].name}</h2>
+        <p>${data.testimonials[i].org}</p>
+      </div>
+    </div>
+  `;
+  testimonials.appendChild(testimonialElement);
 }
