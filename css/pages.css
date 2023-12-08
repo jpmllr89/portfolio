@@ -40,7 +40,7 @@
 
 /* About modal */
 #about .modal-body{
-  margin-top: 1rem;
+  margin-top: 5rem;
   padding: 0 2rem;
   align-items: center;
   flex-wrap: wrap;
@@ -70,14 +70,14 @@
 } 
 
 
-#about .marquee{
+.marquee{
   width: var(--marquee-width);
   height: var(--marquee-height);
   overflow: hidden;
-  margin: 2rem auto;
+  margin: 3rem auto;
   position: relative;
 }
-#about .marquee:after, #about .marquee:before{
+.marquee:after, #about .marquee:before{
   position: absolute;
   top: 0;
   height: 100%;
@@ -93,7 +93,7 @@
   right: 0;
   background: linear-gradient(to left, var(--bg) 0%, transparent 100%);
 }
-#about .marquee-content{
+.marquee-content{
   list-style: none;
   display: flex;
   height: 100%;
@@ -101,7 +101,7 @@
   animation: scrolling var(--marquee-animation-dur) linear infinite;
 }
 
-#about .marquee-content li{
+.marquee-content li{
   width: var(--marquee-elm-width);
   display: flex;
   justify-content: center;

@@ -31,6 +31,12 @@ cursor: pointer;
 color: var(--color-text);
 }
 
+.nav-item:hover{
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+}
+
 /* Modals*/
 
 .modal{
