@@ -313,6 +313,7 @@ input:focus, textarea:focus{
 .hero{
   height: 500px;
   display: block;
+
 }
 
 .hero-text{
@@ -324,6 +325,13 @@ input:focus, textarea:focus{
   box-shadow: 20px 20px black;
   position: relative;
   border: 2px solid black;
+}
+
+.hero-text h1{
+  font-size: 5rem;
+  letter-spacing: -2.5px;
+  line-height: 1.05;
+  margin-top: 20px;
 }
 /* .hero-text i{
   font-size: 38px;
@@ -345,9 +353,6 @@ input:focus, textarea:focus{
   margin-bottom: 50px;
 }
 
-.hero-text h2{
-  margin-top: 20px;
-}
 /* .hero-text a{
   width: 20%;
   margin: 0 auto;
@@ -542,7 +547,7 @@ input:focus, textarea:focus{
   position: relative;
   margin-top: 20rem;
   background-color: white;
-  height: 75vh;
+  height: 500px;
 }
 
 
@@ -678,14 +683,32 @@ input:focus, textarea:focus{
   opacity: .25;
 }
 
-@media (max-width: 375px){
-  .hero{
-    margin-bottom: 200px;
-    height: 700px;
-  }
-  p.sub-header{
-    margin-bottom: none;
-  }
+.technology-list{
+  height: var(--marquee-height);
+  overflow: hidden;
+  margin: 5rem auto;
+  position: relative;
+}
+
+
+.technology-content{
+  list-style: none;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding-left: 0;
+  justify-content: center;
+}
+
+.technology-content li{
+  width: var(--marquee-elm-width);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 100%;
+  white-space: nowrap;
+  flex-shrink: 0;
+  font-size: calc(var(--marquee-height) * 3 / 4);
 }
 
 @media (max-width: 500px){

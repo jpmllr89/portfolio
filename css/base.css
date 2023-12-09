@@ -113,11 +113,11 @@ button:not(:disabled):not(.disabled){
   border-radius: 50rem;
 }
 
-.header-lg{
+/* .header-lg{
   font-size: 5rem;
   letter-spacing: -2.5px;
   line-height: 1.05;
-}
+} */
 
 .header-md{
   font-size: 3rem;
