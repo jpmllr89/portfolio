@@ -183,10 +183,10 @@ const data = {
     {
       id: "modal6",
       h3: "Monstercat Clone",
-      img: "./assets/img/monstercat.jpg",
+      img: "./assets/img/monstercat.png",
       strongParagraph: "Monstercat Website Clone",
       firstParagraph: "This is a clone of Monstercat's website. It is a single page that is built with HTML and CSS.",
-      link: ""
+      link: "https://monstercat-clone-six.vercel.app/"
     },
     // {
     //   id: "modal7",
@@ -204,58 +204,7 @@ const data = {
     //   firstParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?",
     //   secondParagraph: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim corrupti repellendus sunt minus, ipsam cumque perspiciatis. Obcaecati, sit eligendi illo ipsa exercitationem modi cumque repellendus eos aliquam magni reiciendis nam?"
     // },
-  ],
-    testimonials: [
-      {
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
-        img:"./assets/img/testimonials/testimonial-1.jpg",
-        name: "John Doe",
-        org: "Crip Pride Worldwide"
-      },
-      {
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
-        img:"./assets/img/testimonials/testimonial-2.jpg",
-        name: "DRIZZY DRAKE",
-        org: "Crip Pride Worldwide"
-      },
-      {
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
-        img:"./assets/img/testimonials/testimonial-3.jpg",
-        name: "Ice Rube",
-        org: "Crip Pride Worldwide"
-      },
-      {
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
-        img:"./assets/img/testimonials/testimonial-4.jpg",
-        name: "Sanic",
-        org: "Crip Pride Worldwide"
-      },
-      {
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
-        img:"./assets/img/testimonials/testimonial-5.jpg",
-        name: "Bloot",
-        org: "Crip Pride Worldwide"
-      },
-      {
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
-        img:"./assets/img/testimonials/testimonial-6.jpg",
-        name: "Snoot",
-        org: "Crip Pride Worldwide"
-      },
-      {
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
-        img:"./assets/img/testimonials/testimonial-7.jpg",
-        name: "CLEETUS",
-        org: "Crip Pride Worldwide"
-      },
-      {
-        quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, voluptates.",
-        img:"./assets/img/testimonials/testimonial-8.jpg",
-        name: "Rambam",
-        org: "Crip Pride Worldwide"
-      },
-
-    ],
+  ]
 
 }
 
@@ -310,28 +259,4 @@ for(let i = 0; i< data.dataModals.length; i++){
     </div>
   </div>`;
   main.appendChild(modalElement);
-}
-
-// Generate Testimonials
-const testimonials = document.querySelector('.testimonial-carousel');
-const testimonialItem = "testimonial-carousel-item";
-
-for(let i = 0; i< data.dataModals.length; i++){
-  let testimonialElement = document.createElement('div');
-  testimonialElement.classList.add(testimonialItem);
-  testimonialElement.setAttribute('data-animation', "slideDown");
-  testimonialElement.innerHTML =
-  `
-    <p>${data.testimonials[i].quote}</p>
-    <div class="testimonial-author">
-      <div class="author-image-wrapper">
-        <img src=${data.testimonials[i].img} alt="avatar">
-      </div>
-      <div class="details">
-        <h2>${data.testimonials[i].name}</h2>
-        <p>${data.testimonials[i].org}</p>
-      </div>
-    </div>
-  `;
-  testimonials.appendChild(testimonialElement);
 }

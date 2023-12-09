@@ -5,6 +5,13 @@
   --marquee-elms: 8;
   --marquee-elm-width: calc(var(--marquee-width) / var(--marquee-elms-displayed));
   --marquee-animation-dur: calc(var(--marquee-elms) * 3s);
+  --bg: white;
+  --bg-panel: white;
+  --color-headings: #161c2d;
+  --color-text-opacity: rgba(22,28,45, .7);
+  --color-text: #161c2d;
+  --color-text-base: #161c2d;
+  --border: #383f53;
 }
 
 section,
