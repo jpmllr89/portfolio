@@ -223,6 +223,7 @@ for(let i = 0; i< data.dataPortfolioCards.length; i++){
   card.setAttribute(data.dataPortfolioCards[i].attributes[1].name, data.dataPortfolioCards[i].attributes[1].value);
   card.innerHTML =
   `<div class="portfolio-card-body">
+    <div class="title_bar"><i class="fa-regular fa-square-plus"></i></div>
     <img src=${data.dataPortfolioCards[i].picture} alt="portfolio icon">
     <div class='card-modal'>
       <div>${data.dataPortfolioCards[i].title}</div>
