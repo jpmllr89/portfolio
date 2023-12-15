@@ -17,7 +17,8 @@ const modalClose = "[data-close]";
 const isVisible = 'is-visible';
 const openModal = document.querySelectorAll(modalOpen);
 const closeModal = document.querySelectorAll(modalClose);
-console.log(openModal);
+const cardButton = document.querySelectorAll('.fa-square-plus');
+
 
 // Full site modal open buttons
 for(const el of openModal){
@@ -27,6 +28,7 @@ for(const el of openModal){
     event.preventDefault();
   });
 }
+
 
 for(const el of closeModal){
   el.addEventListener('click', function(){

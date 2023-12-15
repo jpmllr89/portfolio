@@ -334,10 +334,10 @@ input:focus, textarea:focus{
 }
 
 .hero-text h1{
-  font-size: 5rem;
+  font-size: 3rem;
   letter-spacing: -2.5px;
   line-height: 1.05;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 /* .hero-text i{
   font-size: 38px;
@@ -528,6 +528,13 @@ input:focus, textarea:focus{
   border-left: 1px solid white;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
+}
+
+.pressed{
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .card-modal div{

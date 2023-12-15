@@ -25,7 +25,7 @@
       margin: 0;
     }
     .hero-text h1{
-      font-size: 2rem;
+      font-size: 1rem;
       margin-top: 50px;
     }
 
@@ -166,6 +166,7 @@
   .hero-text{
     margin-top: 200px;
     box-shadow: none;
+    padding: 2rem 1rem;
     /* width: 100%; */
   }
 
@@ -178,7 +179,7 @@
 
   }
   .hero-text h1{
-    font-size: 4rem;
+    font-size: 2rem;
     margin-top: 50px;
   }
   .technology-content{
