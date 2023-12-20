@@ -83,18 +83,16 @@ button{
 }
 
 .btn{
-  font-weight: 700;
-  min-width: 175px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-transform: uppercase;
-  letter-spacing: 1.63px;
-  transition: 0.4s;
-  height: 65px;
-  padding-left: 30px;
-  padding-right: 30px;
-  box-shadow: 0 32px 52px rgba(3,3,3, 0.12)
+  padding: 10px;
+  margin-left:10px;
+  font-size: 15px;
+  line-height: 26px;
+  /* text-transform: lowercase; */
+  border: 1px solid black;
+  cursor: pointer;
+  color: var(--color-text);
+  background-color: white;
+  box-shadow: 10px 10px rgb(0,0,0);
 }
 
 .btn:not(:disabled):not(.disabled),
@@ -104,13 +102,18 @@ button:not(:disabled):not(.disabled){
 
 .btn-primary,
 .btn-primary a{
-  color: white;
-  background-color: #495fef;
-  border-color: #495fef;
+color:black;
 }
 
 .round-pill{
   border-radius: 50rem;
+}
+
+.btn:hover{
+  padding: 18px;
+  color: white;
+  font-weight: bold;
+  background-color: #0827F5;
 }
 
 /* .header-lg{

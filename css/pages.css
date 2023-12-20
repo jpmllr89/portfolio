@@ -1,5 +1,6 @@
 .page-block{
   background-color: var(--bg);
+  border: 2px solid black;
 }
 
 #contact .modal-body{
@@ -33,9 +34,11 @@
   justify-content: center;
 }
 
-#contact .button{
+#contact button{
   justify-content: center;
 }
+
+
 
 
 /* About modal */

@@ -220,11 +220,12 @@ for(let i = 0; i< data.dataPortfolioCards.length; i++){
   let card = document.createElement('div');
   card.classList.add(portfolioCard);
   card.innerHTML =
-  `<div class="portfolio-card-body">
+  `<div   
+    ${data.dataPortfolioCards[i].attributes[0].name}="${data.dataPortfolioCards[i].attributes[0].value}"
+    ${data.dataPortfolioCards[i].attributes[1].name}=${data.dataPortfolioCards[i].attributes[1].value}
+    class="portfolio-card-body">
     <div class="title_bar">
-      <i 
-        ${data.dataPortfolioCards[i].attributes[0].name}="${data.dataPortfolioCards[i].attributes[0].value}"
-        ${data.dataPortfolioCards[i].attributes[1].name}=${data.dataPortfolioCards[i].attributes[1].value}
+      <i
         class="fa-regular fa-square-plus">
       </i>
     </div>
