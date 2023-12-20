@@ -360,6 +360,10 @@ input:focus, textarea:focus{
 } */
 
 /* Portfolio section */
+
+.portfolio-wrapper{
+  min-height:900px
+}
 .portfolio-bg{
   position:absolute;
   width: 100%;
