@@ -480,7 +480,7 @@ input:focus, textarea:focus{
   flex-wrap: wrap;
   padding: 3rem 1rem;
   justify-content: center;
-  min-width: 1200px;
+  /* min-width: 1200px; */
   min-height: 700px;
   margin: 0 auto;
   overflow:auto;

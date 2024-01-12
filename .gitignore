@@ -1,2 +1,4 @@
 .vscode
 responsive-test.css
+/node_modules
+.env

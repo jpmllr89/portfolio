@@ -1,3 +1,5 @@
+
+
 @media screen and (max-width: 769px) {
   .hero-text{
     margin-top: 200px;
@@ -76,6 +78,8 @@
 
 
 }
+
+
 
 @media screen and (max-width: 500px){
   .portfolio {
@@ -243,6 +247,9 @@
     flex-direction: column;
   }
 }
+
+
+
 
 
   
