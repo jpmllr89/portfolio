@@ -18,9 +18,56 @@ const openModal = document.querySelectorAll(modalOpen);
 const closeModal = document.querySelectorAll(modalClose);
 const cardButton = document.querySelectorAll(".fa-square-plus");
 
+// Get contact form data
+const fname = document.querySelector("#fname");
+const lname = document.querySelector("#lname");
+const email = document.querySelector("#email");
+const message = document.querySelector("#message");
+const subject = document.querySelector("#subject");
+// Have to prevent defalut for contact form.  Then collect stuff off of the form. this will send form via ajax.
+
+const contactForm = document.querySelector(".contact-form");
+contactForm.addEventListener("submit", async (e) => {
+  e.preventDefault();
+
+  const formData = {
+    fname: fname.value,
+    lname: lname.value,
+    email: email.value,
+    subject: subject.value,
+    message: message.value,
+  };
+
+  try {
+    const response = await fetch("/send-email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    });
+
+    const result = await response.text();
+
+    if (result === "success") {
+      alert("Email sent");
+      fname.value = "";
+      lname.value = "";
+      email.value = "";
+      subject.value = "";
+      message.value = "";
+    } else {
+      alert("Something went wrong!");
+    }
+  } catch (error) {
+    console.error("Error sending email:", error);
+    alert("Something went wrong!");
+  }
+});
+
 // Full site modal open buttons
 for (const el of openModal) {
-  el.addEventListener("click", function () {
+  el.addEventListener("click", function (event) {
     const modalId = this.dataset.open;
     document.getElementById(modalId).classList.add(isVisible);
     event.preventDefault();
